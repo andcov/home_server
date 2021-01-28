@@ -1,0 +1,13 @@
+[package]
+name = "home_server"
+version = "0.1.0"
+authors = ["andreico123 <andreicovaci123@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "0.4.6"
+redis = "0.19.0"
+uuid = { version = "0.8", features = ["v4"] }
+dotenv = "0.15.0"

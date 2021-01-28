@@ -1,0 +1,12 @@
+@font-face { font-family: cutivemono-regular;
+			 src: url('../fonts/CutiveMono-Regular.ttf'); }
+body, html {
+  height: 100%;
+  display: grid;
+}
+
+p {
+    margin: auto;
+    font-family: cutivemono-regular;
+    font-size: x-large;
+}
